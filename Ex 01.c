@@ -23,3 +23,15 @@ int main()
         i++;
         }
     }
+//--------With Do while loop-----------------
+int main() {
+    int num, i=1;
+    printf("Enter any Number:\t");
+    scanf("%d",&num);
+    do{
+        printf("%d ",i);
+        i=i+2;
+    }while(i <= 2*num);
+    return 0;
+}
+
